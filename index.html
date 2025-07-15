@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Correctressa - Official Portal</title>
-    <!-- Font Awesome for X/Twitter icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -29,7 +29,7 @@
             margin: 2rem;
         }
         .logo {
-            width: 200px; /* Adjust size as needed */
+            width: 200px;
             height: auto;
             margin-bottom: 1rem;
         }
@@ -38,8 +38,8 @@
             max-height: 350px;
             object-fit: cover;
             border-radius: 8px;
-            margin: 2rem auto;  /* More vertical spacing + centers horizontally */
-            display: block;     /* Ensures proper centering */
+            margin: 2rem auto;
+            display: block;
         }
         h1 {
             font-size: 3rem;
@@ -58,17 +58,37 @@
         }
         .coming-soon {
             margin-top: 2rem;
-            padding: 1rem;
+            padding: 1.5rem;
             background: #f8f9fa;
-            border-radius: 5px;
+            border-radius: 8px;
             font-style: italic;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.03);
+        }
+        .contact-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-style: normal;
+            margin: 1rem 0;
+            font-size: 1.1rem;
+        }
+        .contact-link i {
+            color: #1d9bf0;
+        }
+        a {
+            color: #1d9bf0;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <!-- Emblem/Logo -->
-        <img src="logo.png" alt="Correctressa Logo" class="logo">
+        <img src="logo00.png" alt="Correctressa Logo" class="logo">
 
         <h1>Correctressa.org</h1>
         <h2>The official portal of Correctressa profession</h2>
@@ -76,9 +96,17 @@
         <!-- Hero Photo -->
         <img src="hero-image.png" alt="Correctressa Team" class="hero-image">
 
-        <p> This portal is under construction </p>
+        <p>This portal is under construction.</p>
+
         <div class="coming-soon">
-             Follow us for updates: <a href="https://x.com/VelmaraQueendom" target="_blank">@VelmaraQueendom</a></p>
+            <div class="contact-link">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:zora@correctressa.org">zora@correctressa.org</a>
+            </div>
+            <div class="contact-link">
+                <i class="fab fa-x-twitter"></i>
+                <a href="https://x.com/Correctressa" target="_blank">@Correctressa</a>
+            </div>
         </div>
     </div>
 </body>
